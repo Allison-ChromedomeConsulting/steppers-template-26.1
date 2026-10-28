@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "enhanced feather",
+  "key": {
+    "F": "steppers:enhanced_feather",
+    "L": "minecraft:leather"
+  },
+  "pattern": [
+    "L L",
+    "L L",
+    "F F"
+  ],
+  "result": {
+    "id": "steppers:stepper_boots"
+  }
+}
