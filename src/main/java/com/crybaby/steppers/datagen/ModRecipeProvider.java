@@ -33,6 +33,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .define('F', Items.FEATHER)
                 .unlockedBy("has_feather", has(Items.FEATHER))
                 .save(output);
+
         shaped(RecipeCategory.MISC, ModItems.STEPPER_BOOTS.get())
                 .pattern("L ")
                 .pattern("FF")
@@ -40,6 +41,12 @@ public class ModRecipeProvider extends RecipeProvider {
                 .define('F', ModItems.ENHANCED_FEATHER.get())
                 .unlockedBy(getHasName(ModItems.ENHANCED_FEATHER.get()), has(Items.LEATHER_BOOTS))
                 .save(output, Steppers.MODID + ":" + "stepper_boots_from_leather_boots");
+
+        shaped(RecipeCategory.MISC, ModItems.GOLDEN_CARROT_SEEDS.get())
+                .pattern("G")
+                .define('G', Items.GOLDEN_CARROT)
+                .unlockedBy("has_seeds", has(Items.GOLDEN_CARROT))
+                .save(output);
 
 
     }

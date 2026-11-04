@@ -1,8 +1,13 @@
 {
   "item.steppers.enhanced_feather": "Enhanced Feather",
-
   "item.steppers.stepper_boots": "Stepper Boots",
+  "item.steppers.golden_carrot_seeds" : "Golden Carrot Seeds",
 
+  "block.steppers.golden_farmland" : "Golden Farmland",
+  "block.steppers.golden_farmland_moist" : "Moist Golden Farmland",
+
+  "block.steppers.golden_carrot_crop_block" : "Golden Carrot Crop",
+  "block.steppers.golden_carrot_seeds" : "Golden Carrot Seeds",
 
 
   "creativetab.steppers.special_items": "Special Items"

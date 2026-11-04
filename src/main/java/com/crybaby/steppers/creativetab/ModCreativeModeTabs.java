@@ -1,5 +1,6 @@
 package com.crybaby.steppers.creativetab;
 
+import com.crybaby.steppers.block.ModBlocks;
 import com.crybaby.steppers.Steppers;
 import com.crybaby.steppers.item.ModItems;
 import net.minecraft.core.registries.Registries;
@@ -21,6 +22,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ENHANCED_FEATHER);
                         output.accept(ModItems.STEPPER_BOOTS);
+                        output.accept(ModBlocks.GOLDEN_FARMLAND);
+                        output.accept(ModItems.GOLDEN_CARROT_SEEDS);
 
 
 

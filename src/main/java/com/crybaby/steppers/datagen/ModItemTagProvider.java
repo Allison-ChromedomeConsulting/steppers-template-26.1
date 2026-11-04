@@ -21,5 +21,7 @@ public class ModItemTagProvider extends ItemTagsProvider {
         tag(ModTags.Items.NO_FALL_DAMAGE).add(ModItems.STEPPER_BOOTS.get());
 
 
+
+
     }
 }
