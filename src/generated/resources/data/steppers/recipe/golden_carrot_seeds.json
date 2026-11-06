@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:golden_carrot"
+  },
+  "pattern": [
+    "G"
+  ],
+  "result": {
+    "id": "steppers:golden_carrot_seeds"
+  }
+}
