@@ -20,6 +20,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.GOLDEN_CARROT_CROP.get());
         tag(BlockTags.MAINTAINS_FARMLAND)
                 .add(ModBlocks.GOLDEN_CARROT_CROP.get());
+        tag(BlockTags.SUPPORTS_CROPS)
+                .add(ModBlocks.GOLDEN_FARMLAND.get());
+        tag(BlockTags.SUPPORTS_CROPS)
+                .add(ModBlocks.GOLDEN_FARMLAND_MOIST.get());
+
+
 
 
     }
